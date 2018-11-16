@@ -1,0 +1,9 @@
+1542357083607	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/r1/z4t98jf15jl7ktqm11qn6yz00000gn/T/rust_mozprofile.coYVM4vti0bD"
+1542357086152	Marionette	INFO	Listening on port 64334
+1542357086200	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=26524_1469_21088_27376_26350_22074&csor=4&pwd=pyt&cb=jQuery11020019581612805158688_1542357086939&_=1542357086952, line 1: TypeError: jQuery11020019581612805158688_1542357086939 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=26524_1469_21088_27376_26350_22074&csor=3&pwd=py&cb=jQuery11020019581612805158688_1542357086939&_=1542357086951, line 1: TypeError: jQuery11020019581612805158688_1542357086939 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=26524_1469_21088_27376_26350_22074&csor=5&pwd=pyth&cb=jQuery11020019581612805158688_1542357086939&_=1542357086953, line 1: TypeError: jQuery11020019581612805158688_1542357086939 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=26524_1469_21088_27376_26350_22074&csor=6&pwd=pytho&cb=jQuery11020019581612805158688_1542357086939&_=1542357086954, line 1: TypeError: jQuery11020019581612805158688_1542357086939 is not a function
+1542357097309	Marionette	INFO	Stopped listening on port 64334
