@@ -5,11 +5,11 @@ from selenium.webdriver.common.keys import Keys     #引入键盘按键操作key
 from selenium.webdriver.common.action_chains import ActionChains        #引入鼠标事件包
 
 # 配置文件地址
-firefox_dir = r'C:\Users\肖欢\AppData\Roaming\Mozilla\Firefox\Profiles\2qs152iz.default'
+# firefox_dir = r'C:\Users\肖欢\AppData\Roaming\Mozilla\Firefox\Profiles\2qs152iz.default'
 # 加载配置
-firefox_config = webdriver.FirefoxProfile(firefox_dir)
+# firefox_config = webdriver.FirefoxProfile(firefox_dir)
 # 启动浏览器配置
-dr = webdriver.Firefox(firefox_config)
+dr = webdriver.Firefox()
 
 dr.get('https://baidu.com')
 dr.find_element_by_id('kw').send_keys('selenium')
