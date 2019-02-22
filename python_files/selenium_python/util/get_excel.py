@@ -7,7 +7,7 @@ class ExcelOperate():
         if file_path:
             self.file_path = file_path
         else:
-            self.file_path = r'D:\python_files\selenium_python\file\case1.xlsx'
+            self.file_path = r'/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/selenium_python/file/case1.xlsx'
         self.sheet_id = sheet_id
         self.data = self.get_excel()
         

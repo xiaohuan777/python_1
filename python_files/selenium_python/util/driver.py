@@ -11,14 +11,14 @@ class ActionDriver():
         self.browser = args[0]
         if self.browser == 'chrome':
             self.dr = webdriver.Chrome()
-        elif self.browser == 'firefox':
-            # 配置文件地址
-            firefox_dir = r'C:\Users\肖欢\AppData\Roaming\Mozilla\Firefox\Profiles\2qs152iz.default'
-            # 加载配置
-            firefox_config = webdriver.FirefoxProfile(firefox_dir)
-            self.dr = webdriver.Firefox(firefox_config)
-        else:
-            self.dr = webdriver.Ie()
+        # elif self.browser == 'firefox':
+        #     # 配置文件地址
+        #     firefox_dir = r'C:\Users\肖欢\AppData\Roaming\Mozilla\Firefox\Profiles\2qs152iz.default'
+        #     # 加载配置
+        #     firefox_config = webdriver.FirefoxProfile(firefox_dir)
+        #     self.dr = webdriver.Firefox(firefox_config)
+        # else:
+        #     self.dr = webdriver.Ie()
         return self.dr
 
     # 打开URL
@@ -52,7 +52,6 @@ class ActionDriver():
 
 
 if __name__ == '__main__':
-    dr = ActionDriver('firefox')
-    dr.open_browser()
+    dr = ActionDriver()
+    dr.open_browser('chrome')
 
-        

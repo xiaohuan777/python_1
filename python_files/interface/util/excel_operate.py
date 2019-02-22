@@ -9,7 +9,7 @@ class OperationExcel():
             self.file_name = file_name
             self.sheet_id = sheet_id
         else:
-            self.file_name = 'D:\python_files\interface\excel_file\case2.xlsx'
+            self.file_name = '/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/interface/excel_file/case1.xls'
             self.sheet_id = 0
         self.data = self.get_data()
 
