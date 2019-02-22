@@ -1,7 +1,7 @@
 # coding:utf-8
 
 import sys
-sys.path.append('/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/selenium_python')
+sys.path.append('/usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7')
 from util.get_excel import ExcelOperate
 from util.driver import ActionDriver
 
