@@ -58,3 +58,18 @@ t1 = (20,3,7,10,67)
 
 t1[0]                       通过下标去元素
 t1[0] = 2                   ！！！！错误的写法，不能修改元组内部元素
+
+
+### 字典:键值对
+dict1 = {'name':'linda','age':22}
+
+dict1['name']                   访问字典中的值
+dict1['sex'] = 'femail'         添加键值对
+dict2 = {}                      创建一个空字典
+dict1['name'] = 'Rosa'          修改字典中的值
+del dict1['sex']                删除键值对
+
+#### 遍历键值对
+for key,value in dict1.items():
+    print('\nkey:'+ key)
+    print('value:' + value)
