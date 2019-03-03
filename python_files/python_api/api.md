@@ -1,6 +1,6 @@
-##Python常用API
+## Python常用API
 
-###字符串
+### 字符串
 
 1. str.title()     修改字符串首字母为大写
 2. str.upper()     字符串改写全部大写
