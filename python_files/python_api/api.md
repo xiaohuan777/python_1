@@ -58,14 +58,25 @@
 3. t1[0] = 2                   ！！！！错误的写法，不能修改元组内部元素
 
 
-### 字典:键值对
-1. dict1 = {'name':'linda','age':22}
+### if语句
 
-2. dict1['name']                   访问字典中的值
-3. dict1['sex'] = 'femail'         添加键值对
-4. dict2 = {}                      创建一个空字典
-5. dict1['name'] = 'Rosa'          修改字典中的值
-6. del dict1['sex']                删除键值对
+1. ==                          相等号
+2. !=                          不等号
+3. and,or                      使用and,or检查多个条件
+4. in                          判断特定的值是否已包含在列表中
+5. if-elif-else
+6. if-else
+
+
+### 字典:键值对
+
+   dict1 = {'name':'linda','age':22}
+
+1. dict1['name']                   访问字典中的值
+2. dict1['sex'] = 'femail'         添加键值对
+3. dict2 = {}                      创建一个空字典
+4. dict1['name'] = 'Rosa'          修改字典中的值
+5. del dict1['sex']                删除键值对
 
    #### 遍历字典中键值对
 ```
@@ -100,7 +111,109 @@ for val in set(dict1.values()):
 
 ## 嵌套：将一系列字典存储在列表中，或将列表作为值存储在字典中
 
-### 字典列表
+### 在列表中存储字典
+
+```
+alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+
+aliens = [alien_0, alien_1, alien_2]
+
+for alien in aliens:
+   print(alien)
+```
+
+### 在字典中存储列表
+```
+pizza = {
+'crust': 'thick',
+'toppings': ['mushrooms', 'extra cheese']
+}
+```
+
+### 在字典中存储字典
+```
+users = {
+   'aeinstein': {
+        'first': 'albert',
+        'last': 'einstein',
+        'location': 'princeton'
+        },
+   'mcurie': {
+        'first': 'marie',
+        'last': 'curie',
+        'location': 'paris'
+        },
+}
+```
+
+## 用户输入 input 和 while 循环
+
+### input()
+
+```
+name = input("Please enter your name: ")
+print("Hello, " + name + "!")
+
+***********
+
+Please enter your name: Eric
+Hello, Eric!
+```
+
+#### 用 int() 来获取数值输入
+
+#### 求模运算
+   4 % 3          将两个数相除并返回余数
 
 
+### while 循环
+   使用 break 退出循环
+   使用 continue 继续循环
 
+   ```
+   current_number = 0
+   while current_number < 10:
+      current_number += 1
+      if current_number % 2 == 0:
+         continue
+      print(current_number)
+   ```
+
+
+## 使用 while 循环来处理列表和字典
+
+### 删除包含特定值的所有列表元素   while + remove()
+
+```
+pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+while 'cat' in pets:
+   pets.remove('cat')
+print(pets)
+```
+
+
+## 函数
+
+   ```
+   def describe_pet(animal_type, pet_name):
+      pass
+
+   ***
+   键值对实参
+   describe_pet(animal_type='hamster', pet_name='harry')
+
+   ***
+   实参
+   describe_pet('hamster', 'harry')
+   ****
+
+   默认值参数
+   def describe_pet(pet_name, animal_type='dog'):
+      pass
+
+   describe_pet(pet_name='willie')
+   ```
+
+   
