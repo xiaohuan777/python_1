@@ -195,17 +195,18 @@ print(pets)
 
 
 ## 函数
+### 1.实参种类
 
    ```
    def describe_pet(animal_type, pet_name):
       pass
 
    ***
-   键值对实参
+   关键字实参（键值对）
    describe_pet(animal_type='hamster', pet_name='harry')
 
    ***
-   实参
+   位置实参
    describe_pet('hamster', 'harry')
    ****
 
@@ -213,8 +214,92 @@ print(pets)
    def describe_pet(pet_name, animal_type='dog'):
       pass
 
-   describe_pet(pet_name='willie')
    ```
 
    
-### 返回值
+### 2.传递任意数量的实参
+#### 任意数量实参，可以理解成放在一个元组里
+
+```
+   def make_pizza(*toppings):
+   """打印顾客点的所有配料"""
+   print(toppings)
+
+   make_pizza('pepperoni')
+   make_pizza('mushrooms', 'green peppers', 'extra cheese')
+```
+
+### 3.结合使用位置实参和任意数量实参
+
+```
+   def make_pizza(size, *toppings):
+      pass
+
+   make_pizza(16, 'pepperoni')
+   make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+```
+
+### 4.使用任意数量的关键字实参
+
+```
+   def build_profile(first, last, **user_info):
+   """创建一个字典，其中包含我们知道的有关用户的一切，**user_info就表示一个空字典"""
+      profile = {}
+      profile['first_name'] = first
+      profile['last_name'] = last
+
+      for key, value in user_info.items():
+         profile[key] = value
+      return profile
+
+   user_profile = build_profile('albert', 'einstein', location='princeton',field='physics')
+   print(user_profile)
+```
+
+
+## 类
+### 1.创建类
+
+```
+   class Dog():
+   """一次模拟小狗的简单尝试"""
+
+      def __init__(self, name, age):
+      """初始化属性name和age"""
+         self.name = name
+         self.age = age
+
+      def sit(self):
+      """模拟小狗被命令时蹲下"""
+         print(self.name.title()+ " is now sitting.")
+
+      def roll_over(self):
+      """模拟小狗被命令时打滚"""
+         print(self.name.title()+ " rolled over!")
+
+```
+### 2.实例化对象
+
+```
+   my_dog = Dog('while',6)
+
+```
+#### 2.1访问属性
+
+```
+   my_dog.name
+```
+
+#### 2.2调用方法
+
+```
+   my_dog.sit()
+   my_dog.roll_over()
+```
+
+#### 2.3创建多个实例
+
+```
+   my_dog = Dog('willie', 6)
+   your_dog = Dog('lucy', 3)
+```

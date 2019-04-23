@@ -11,7 +11,7 @@ import json
 
 class RunTest():
     def __init__(self):
-        self.data = GetData()
+        self.data = GetData()           
         self.run_method = RunMethod()
         self.assert_method = CaseAssert()
         self.send_email = SendEmail()
