@@ -265,9 +265,11 @@ print(pets)
    """一次模拟小狗的简单尝试"""
 
       def __init__(self, name, age):
-      """初始化属性name和age"""
+      """初始化属性name和age,color"""
          self.name = name
          self.age = age
+         '''color属性设置初始值‘’‘
+         self.color = 'black'
 
       def sit(self):
       """模拟小狗被命令时蹲下"""
@@ -302,4 +304,94 @@ print(pets)
 ```
    my_dog = Dog('willie', 6)
    your_dog = Dog('lucy', 3)
+```
+
+#### 2.4修改属性的值
+##### 2.4.1直接修改属性的值
+
+```
+   my_dog = Dog('willie', 6)
+   my_dog.color = 'yellow'
+```
+
+##### 2.4.2通过方法修改属性的值
+
+```
+   class Dog():
+      --snip--
+      def change_color(self, new_color):
+         self.color = new_color
+   
+   my_dog = Dog('willie', 6)
+   my_dog.change_color('red')
+```
+
+##### 2.4.3通过方法对属性的值进行递增
+
+
+
+## 继承
+### 1.父类与子类关系
+```
+class Car():
+    """父类"""
+   def __init__(self, make, model, year):
+      self.make = make
+      self.model = model
+      self.year = year
+      self.odometer_reading = 0
+
+   def get_descriptive_name(self):
+      long_name = str(self.year) + ' ' + self.make + ' ' + self.model
+      return long_name.title()
+
+   def update_odometer(self, mileage):
+      if mileage >= self.odometer_reading:
+         self.odometer_reading = mileage
+      else:
+         print("You can't roll back an odometer!")
+
+
+class ElectricCar(Car):
+    """子类"""
+   def __init__(self, make, model, year):
+        """初始化父类的属性"""
+        super().__init__(make, model, year)
+        """初始子类特有属性"""
+        self.battery_size = 70
+
+   def describe_battery(self):
+   """打印一条描述电瓶容量的消息"""
+      print("This car has a " + str(self.battery_size) + "-kWh battery.")
+
+my_tesla = ElectricCar('tesla', 'model s', 2016)
+print(my_tesla.get_descriptive_name())
+
+```
+
+### 2.重写父类方法
+
+```
+   class ElectricCar(Car):
+   --snip--
+   """假设Car 类有一个名为fill_gas_tank() 的方法"""
+      def fill_gas_tank():
+      """电动汽车没有油箱"""
+         print("This car doesn't need a gas tank!")
+```
+
+
+### 3.将实例用作属性
+
+```
+   class Car():
+      --snip--
+   
+   class Battery():
+      --snip--
+
+   class Electric(Car):
+      def __init__(self, make, model, year):
+         super().__init__(make, model, year)
+         self.battery = Battery()
 ```

@@ -1,4 +1,4 @@
-# 
+#
 from chip import *
 # from chip import c2
 # print(c3.a)
