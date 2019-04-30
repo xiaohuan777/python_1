@@ -1,4 +1,7 @@
 # coding:utf-8
+'''
+将Excel表中的字段与实际请求参数关联起来
+'''
 
 from util.excel_operate import OperationExcel
 from data_file import data_config

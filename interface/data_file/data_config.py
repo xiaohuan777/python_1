@@ -1,4 +1,9 @@
 #coding:utf-8
+'''
+给Excel表的每个单元格编号，并且声明每个字段的名称，定义获取该字段的方法
+'''
+
+
 class global_var(object):
 	#case_id
 	Id = '0'
