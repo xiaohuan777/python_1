@@ -1,6 +1,4 @@
 # coding:utf-8
-import sys
-sys.path.append(r'D:\python_files\interface')
 
 from util.excel_operate import OperationExcel
 from data_file import data_config

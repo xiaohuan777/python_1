@@ -9,14 +9,15 @@ class OperationExcel():
             self.file_name = file_name
             self.sheet_id = sheet_id
         else:
-            self.file_name = '/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/interface/excel_file/case1.xls'
+            self.file_name = r'/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/interface/excel_file/case2.xlsx'
             self.sheet_id = 0
         self.data = self.get_data()
 
-    # 获取sheet内容
+
+    # 获取工作表sheets的内容，通过索引获取
     def get_data(self):
-        data = xlrd.open_workbook(self.file_name)
-        table = data.sheet_by_index(self.sheet_id)
+        data = xlrd.open_workbook(self.file_name)           #打开Excel文件
+        table = data.sheet_by_index(self.sheet_id)          #获取工作表，这里是获取了第一张
         return table
 
     # 获取单元格行数
@@ -31,20 +32,32 @@ class OperationExcel():
 
     # 写入数据
     def write_value(self, row, col, value):
+        '''
+		写入excel数据
+		row,col,value
+		'''
         table = xlrd.open_workbook(self.file_name)
-        table_copy = copy(table)
+        table_copy = copy(table)                                #复制一张工作表
         sheet_copy = table_copy.get_sheet(0)
         sheet_copy.write(row, col, value)
         table_copy.save(self.file_name)
 
         
-    # 根据对应case_id，找到对应行的内容
+    # 目的：根据caseid 找到对应行的内容（事先知道所属列）
     def get_row_data(self, case_id):
         row_num = self.get_row_num(case_id)
         row_data = self.get_row_value(row_num)
         return row_data
 
-    # 根据对应的case_id，找到对应的行号
+
+    # 1.获取整列的值（是一个数组）
+    def get_col_data(self, col):
+        table = self.get_data()
+        col_data = table.col_values(col)
+        return col_data
+
+
+    # 2.根据caseid找到对应的行号
     def get_row_num(self, case_id):
         num = 0
         cols_data = self.get_col_data(0)
@@ -53,23 +66,19 @@ class OperationExcel():
                 return num
             num += 1
 
-    # 根据行号找到行内容
+
+    # 3.根据行号，找到该行的内容
     def get_row_value(self, row):
         table = self.get_data()
         row_data = table.row_values(row)
         return row_data
 
-    # 获取某一列内容
-    def get_col_data(self, col):
-        table = self.get_data()
-        col_data = table.col_values(col)
-        return col_data
-
 
 
 if __name__ == '__main__':
     opera = OperationExcel()
-    opera.write_value(1, 11, 'ceshi')
+    # opera.write_value(1, 11, 'ceshi')
+    print(opera.get_cell_value(1,2))
 
 
 

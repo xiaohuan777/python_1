@@ -14,7 +14,7 @@
             "debugOptions": [
                 "RedirectOutput"
             ],
-            "console": "none"       //不使用命令行
+            "console": "internalConsole"       //不使用命令行
         },
         {
             "name": "Python: Attach",

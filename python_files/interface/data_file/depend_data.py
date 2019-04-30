@@ -1,6 +1,4 @@
 # coding:utf-8
-import sys
-sys.path.append('/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/interface')
 
 from util.excel_operate import OperationExcel
 from data_file.get_data import GetData
@@ -49,7 +47,7 @@ class DependData():
         return depend_value
 
 if __name__ == '__main__':
-    path = r'D:\python_files\interface\excel_file\user.json'
+    path = r'/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/interface/excel_file/autoresponse.json'
     fp = open(path, 'r', encoding='utf-8')
     json_obj = fp.read()
     json_obj = json.loads(json_obj)

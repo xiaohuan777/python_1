@@ -11,7 +11,7 @@ class OperationMysql():
             host='localhost',
             port=3306,
             user='root',
-            password='root',
+            password='11111111',
             db='sqltest',
             charset='utf8',
             cursorclass = pymysql.cursors.DictCursor
@@ -27,6 +27,6 @@ class OperationMysql():
 
 if __name__ == '__main__':
     op_mysql = OperationMysql()
-    result = op_mysql.search_one("select * from stu where name='daniu'")
+    result = op_mysql.search_one("select * from stu where name='huan'")
     print(result)
 
