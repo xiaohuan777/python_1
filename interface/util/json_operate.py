@@ -1,6 +1,6 @@
 # coding:utf-8
 import json
-fire_path = '/excel_file/login.json'
+fire_path = r'/Users/xiaohuan/Desktop/face/xiaohuan/python/interface/excel_file/login.json'
 
 
 class JsonRead():

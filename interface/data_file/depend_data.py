@@ -47,7 +47,7 @@ class DependData():
         return depend_value
 
 if __name__ == '__main__':
-    path = r'/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/interface/excel_file/autoresponse.json'
+    path = r'/Users/xiaohuan/Desktop/face/xiaohuan/python/interface/excel_file/autoresponse.json'
     fp = open(path, 'r', encoding='utf-8')
     json_obj = fp.read()
     json_obj = json.loads(json_obj)

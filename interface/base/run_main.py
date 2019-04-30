@@ -36,7 +36,7 @@ class RunMethod():
 # 现改用python3.0方法
 class RunMethod():
     def __init__(self):
-        self.cookie_file = r'/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/interface/excel_file/cookie.txt'
+        self.cookie_file = r'/Users/xiaohuan/Desktop/face/xiaohuan/python/interface/excel_file/cookie.txt'
 
     def run_main(self, url, header, data=None, cookies=None):      
         # response = json.loads(response)

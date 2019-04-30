@@ -1,7 +1,7 @@
 # coding:utf-8
 
 import sys
-sys.path.append('/Users/xiaohuan/Desktop/face/xiaohuan/python/python_files/interface')
+sys.path.append('/Users/xiaohuan/Desktop/face/xiaohuan/python/interface')
 
 from data_file.get_data import GetData
 from base.run_main import RunMethod
