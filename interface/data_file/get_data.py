@@ -2,9 +2,12 @@
 '''
 将Excel表中的字段与实际请求参数关联起来
 '''
+import sys
+sys.path.append('/Users/xiaohuan/Desktop/face/xiaohuan/python/interface')
+
 
 from util.excel_operate import OperationExcel
-from data_file import data_config
+from data_file.data_config import Global_var
 from util.json_operate import JsonRead
 import xlrd
 from util.sqldb import OperationMysql
@@ -20,7 +23,7 @@ class GetData():
     # 获取是否执行
     def get_is_run(self, row):
         flag = None
-        col = int(data_config.get_run())
+        col = int(Global_var.run)
         cell_val = self.get_excel.get_cell_value(row, col)
         if cell_val == 'yes':
             flag = True
@@ -33,28 +36,28 @@ class GetData():
         headers = {
             'User-Agent': 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
         }
-        col = int(data_config.get_header())
+        col = int(Global_var.header)
         header_val = self.get_excel.get_cell_value(row, col)
         if header_val == 'yes':
-            return data_config.get_header_value()
+            return Global_var.header
         else:
             return headers
 
     # 获取请求方式
     def get_request_method(self, row):
-        col = int(data_config.get_run_way())
+        col = int(Global_var.request_way)
         request_val = self.get_excel.get_cell_value(row, col)
         return request_val
 
     # 获取URL
     def get_url(self, row):
-        col = int(data_config.get_url())
+        col = int(Global_var.url)
         url = self.get_excel.get_cell_value(row, col)
         return url
 
     # 获取请求数据
     def get_requst_data(self, row):
-        col = int(data_config.get_data())
+        col = int(Global_var.data)
         request_data = self.get_excel.get_cell_value(row, col)
         if request_data == '':
             return None
@@ -69,7 +72,7 @@ class GetData():
 
     # 获取预期结果
     def get_expect_data(self, row):
-        col = int(data_config.get_expect())
+        col = int(Global_var.expect)
         expect = self.get_excel.get_cell_value(row, col)
         if expect == '':
             return None
@@ -84,13 +87,13 @@ class GetData():
 
     # 写入数据
     def write_data(self, row, value):
-        col = int(data_config.get_result())
+        col = int(Global_var.result)
         result = self.get_excel.write_value(row, col, value)
         return result
 
     # 获取被依赖case的key
     def get_depend_key(self, row):
-        col = int(data_config.get_data_depend())
+        col = int(Global_var.data_depend)
         key = self.get_excel.get_cell_value(row, col)
         if key == '':
             return None
@@ -98,19 +101,19 @@ class GetData():
 
     # 获取是否有case依赖
     def is_depend(self, row):
-        col = int(data_config.get_case_depend())
+        col = int(Global_var.case_depend)
         depend_value = self.get_excel.get_cell_value(row, col)
         return depend_value
 
     # 获取依赖case的key值
     def get_depend_field(self, row):
-        col = int(data_config.get_field_depend())
+        col = int(Global_var.field_depend)
         depend_field = self.get_excel.get_cell_value(row, col)
         return depend_field
 
     # 是否携带cookie
     def is_cookie(self, row):
-        col = int(data_config.get_cookie())
+        col = int(Global_var.cookie)
         cookie = self.get_excel.get_cell_value(row, col)
         if cookie == '':
             return None
@@ -119,3 +122,6 @@ class GetData():
     
 
 
+if __name__ == "__main__":
+    get_datas = GetData()
+    print(GetData.is_cookie(1,2))
