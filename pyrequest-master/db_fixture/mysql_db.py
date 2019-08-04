@@ -5,7 +5,14 @@ import configparser as cparser
 
 
 # ======== Reading db_config.ini setting ===========
-base_dir = dirname(dirname(abspath(__file__)))
+base_dir = dirname(dirname(abspath(__file__)))     
+     
+'''
+__file__ 表示当前文件路径
+abspath(path): 获取当前文件的绝对路径; E:/Read_File/read_yaml.py
+dirname(path):返回当前文件所在的目录 E:/Read_File
+'''
+
 base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/db_config.ini"
 
