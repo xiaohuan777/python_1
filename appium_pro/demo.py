@@ -6,6 +6,7 @@ def get_driver():
         "platformName": "Android",
         "appPackage":"cn.com.open.mooc",
         "appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity"
+        "noreset":"true"
     }
     driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", capabilities)
     return driver
@@ -70,8 +71,9 @@ def go_login():
 
 
 
+
     
 #启动app
 driver = get_driver()
-
+time.sleep(1)
 go_login()
