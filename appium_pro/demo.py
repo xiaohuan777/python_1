@@ -7,6 +7,7 @@ def get_driver():
         "platformName": "Android",
         "appPackage":"cn.com.open.mooc",
         "appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity"
+        "noreset":"true"
     }
     driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", capabilities)
     return driver
@@ -78,6 +79,7 @@ def login():
     driver.find_element_by_id('cn.com.open.mooc:id/login').click()
 
 
+<<<<<<< HEAD
 #启动app
 driver = get_driver()
 swipe_on('left')
@@ -86,3 +88,12 @@ swipe_on('left')
 run_page()
 go_login()
 login()
+=======
+
+
+    
+#启动app
+driver = get_driver()
+time.sleep(1)
+go_login()
+>>>>>>> ef879036474289e3c47fdda91b769dc81cd9ad5b
