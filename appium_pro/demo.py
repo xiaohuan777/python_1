@@ -2,7 +2,8 @@
 from appium import webdriver
 def get_driver():
     capabilities = {
-        "deviceName": "QLXBBBA631500990",
+        # 92c4cced   QLXBBBA631500990   NFQKGQIFBIV4ZLHY
+        "deviceName": "NFQKGQIFBIV4ZLHY",
         "platformName": "Android",
         "appPackage":"cn.com.open.mooc",
         "appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity"
@@ -60,18 +61,28 @@ def swipe_on(direction):
     else:
         swipe_right()
 
+def run_page():
+    driver.find_element_by_class_name('android.widget.ImageView').click()
+    driver.find_element_by_id('cn.com.open.mooc:id/tvSkip').click()
+
+
 
 def go_login():
     driver.find_element_by_xpath("//*[@content-desc='账号']").click()
     driver.find_element_by_id('cn.com.open.mooc:id/header_line').click()
+    driver.find_element_by_id('cn.com.open.mooc:id/right_text').click()
+
+def login():
     driver.find_element_by_id('cn.com.open.mooc:id/accountEdit').send_keys('16621175178')
     driver.find_element_by_id('cn.com.open.mooc:id/passwordEdit').send_keys('1164821471')
     driver.find_element_by_id('cn.com.open.mooc:id/login').click()
 
 
-
-    
 #启动app
 driver = get_driver()
-
+swipe_on('left')
+swipe_on('left')
+swipe_on('left')
+run_page()
 go_login()
+login()
