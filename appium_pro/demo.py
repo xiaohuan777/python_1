@@ -79,16 +79,12 @@ def login():
     driver.find_element_by_id('cn.com.open.mooc:id/login').click()
 
 
-<<<<<<< HEAD
 #启动app
 driver = get_driver()
 swipe_on('left')
 swipe_on('left')
 swipe_on('left')
-run_page()
-go_login()
-login()
-=======
+
 
 
     
@@ -96,4 +92,3 @@ login()
 driver = get_driver()
 time.sleep(1)
 go_login()
->>>>>>> ef879036474289e3c47fdda91b769dc81cd9ad5b
