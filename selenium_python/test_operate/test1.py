@@ -14,7 +14,6 @@ for i in range(0,5):
     print(user_name)
 
 
-
 driver = webdriver.Chrome()
 driver.get('http://mp.tt.cn')
 time.sleep(2)
@@ -32,18 +31,6 @@ ele2_attr = imput_ele2.get_attribute('value')   # get_attribute 方法，记住
 print(ele2_attr)
 # driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[1]/div[2]/form/div[1]/div/div/input')
 
-# 解决图片验证码的问题
-driver.save_screenshot('E://imooc.png')
-code_element = driver.find_element_by_id('getcode_num')
-print(code_element.location)     #{'x':123,'y':345}
-left = code_element.location['x']
-top = code_element.location['y']
-right = code_element.size['width'] + left
-height = code_element.size['height'] + top
-page_img = Image.open('E://imooc.png')
-code_img = page_img.crop((left,top,right,height))
-code_img.save('E://imooc1.png')
-img_text = pytesseract.image_to_string(code_img)
 
 time.sleep(2)
 driver.close()
