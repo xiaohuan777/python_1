@@ -1,5 +1,7 @@
 #coding = utf-8
 from appium import webdriver
+
+
 def get_driver():
     capabilities = {
         # 92c4cced   QLXBBBA631500990   NFQKGQIFBIV4ZLHY
