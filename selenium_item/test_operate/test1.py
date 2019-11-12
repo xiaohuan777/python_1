@@ -1,12 +1,11 @@
-#coding=utf-8
+# coding=utf-8
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 import time
 import random
-from PIL import Image   #需要安装 pillow 这个库
-import pytesseract      #识别验证码图片的库
+
 
 # 引入 radom 包，生成随机字符串；解决注册多用户的问题
 for i in range(0,5):
@@ -17,7 +16,7 @@ for i in range(0,5):
 driver = webdriver.Chrome()
 driver.get('http://mp.tt.cn')
 time.sleep(2)
-EC.title_contains('东方号')       #通过页面title来判断页面是否正常打开
+EC.title_contains('东方号')       # 通过页面title来判断页面是否正常打开
 
 # visibility_of_element_located 方法，可以判断页面元素是否存在，存在执行后续操作
 locator = (By.CLASS_NAME,'el-input')

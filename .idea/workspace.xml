@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ef72778-014a-4979-9592-82cb967dbcaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appium_pro/demo2.py" afterDir="false" />
+    <list default="true" id="0ef72778-014a-4979-9592-82cb967dbcaf" name="Default Changelist" comment="测试一下使用pycharm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_pro/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_pro/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/main/case_assert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/main/run_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/baidutest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/baidutest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/checkbox/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/checkbox/checkbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/checkbox/checkbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/checkbox/checkbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/checkbox/checkbox1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/checkbox/checkbox1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/fix_step.md" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/fix_step.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/iframe/frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/iframe/frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/iframe/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/iframe/frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/iframe/inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/iframe/inner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/level_target/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/level_target/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/level_target/level.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/level_target/level.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/level_target/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/level_target/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/selenium/open_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_items/selenium/open_baidu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_item/test_operate/img_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_item/test_operate/img_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_item/test_operate/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_item/test_operate/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,40 +15,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="124">
-                <caret line="4" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_items/selenium/open_baidu.py">
+        <entry file="file://$PROJECT_DIR$/selenium_item/test_operate/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_pro/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="305">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#15#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appium_pro/demo2.py">
+        <entry file="file://$PROJECT_DIR$/selenium_item/test_operate/img_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="248">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#16#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,12 +57,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/appium_pro/demo.py" />
         <option value="$PROJECT_DIR$/appium_pro/demo2.py" />
+        <option value="$PROJECT_DIR$/selenium_item/test_operate/test1.py" />
+        <option value="$PROJECT_DIR$/selenium_item/test_operate/img_code.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="61" />
+    <option name="x" value="18" />
+    <option name="y" value="35" />
     <option name="width" value="1400" />
     <option name="height" value="759" />
   </component>
@@ -113,12 +84,13 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="appium_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium_item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium_item" type="462c0819:PsiDirectoryNode" />
+              <item name="test_operate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,11 +200,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="61" width="1400" height="759" extended-state="0" />
+    <frame x="18" y="35" width="1400" height="759" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16823785" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.16823785" />
+      <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.16823785" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -318,13 +290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_items/selenium/open_baidu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appium_pro/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2790">
@@ -336,6 +301,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_items/selenium/open_baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_item/test_operate/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_item/test_operate/img_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#16#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
