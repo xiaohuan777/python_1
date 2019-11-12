@@ -80,6 +80,11 @@ def login():
     driver.find_element_by_id('cn.com.open.mooc:id/passwordEdit').send_keys('1164821471')
     driver.find_element_by_id('cn.com.open.mooc:id/login').click()
 
+def by_className():
+    father = driver.find_element_by_id('father')
+    eles = father.find_elements_by_class_name('brother')
+    ele = eles[2].click()
+
 
 #启动app
 driver = get_driver()
