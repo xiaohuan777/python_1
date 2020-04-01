@@ -1,0 +1,78 @@
+{
+  "uid" : "d9e0f648a3f6dccf",
+  "name" : "test_success_category_index",
+  "fullName" : "testcase.test_QuestionsPages.TestClass#test_success_category_index",
+  "historyId" : "7c13a5de2e18b06cb6c6d3a73e7b1d7c",
+  "time" : {
+    "start" : 1578392975028,
+    "stop" : 1578392975185,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "590f7ead4fd02e4e",
+      "name" : "stdout",
+      "source" : "590f7ead4fd02e4e.txt",
+      "type" : "text/plain",
+      "size" : 857
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "正常case(展示category为大盘)"
+  }, {
+    "name" : "feature",
+    "value" : "问题列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_QuestionsPages"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "TSJ-002097"
+  }, {
+    "name" : "thread",
+    "value" : "22096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_QuestionsPages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9e0f648a3f6dccf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,191 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "AI机器人聊天",
+    "children" : [ {
+      "name" : "正常case_个股地区",
+      "children" : [ {
+        "name" : "test_success",
+        "uid" : "74d9db19539b16e8",
+        "parentUid" : "41acd58cb5e4b20d64f545259ec00c45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578392972116,
+          "stop" : 1578392972848,
+          "duration" : 732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41acd58cb5e4b20d64f545259ec00c45"
+    } ],
+    "uid" : "3f8badb3f6e7f5d2dbf3df41ec5a3b88"
+  }, {
+    "name" : "热门问题",
+    "children" : [ {
+      "name" : "正常case",
+      "children" : [ {
+        "name" : "test_success",
+        "uid" : "63c3c7c0f987de10",
+        "parentUid" : "e3acf201db317f09c5aed479d479935c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392972914,
+          "stop" : 1578392973379,
+          "duration" : 465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3acf201db317f09c5aed479d479935c"
+    } ],
+    "uid" : "e44ed671c8ed353e9dad969148bfc311"
+  }, {
+    "name" : "AI介绍页、欢迎语",
+    "children" : [ {
+      "name" : "正常case",
+      "children" : [ {
+        "name" : "test_success",
+        "uid" : "2822e9bd758850ec",
+        "parentUid" : "0350c65214ab03efd2d9ba0d6099abf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392973385,
+          "stop" : 1578392974151,
+          "duration" : 766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0350c65214ab03efd2d9ba0d6099abf4"
+    } ],
+    "uid" : "e0528c49fcc40c7e56253aec64e329d9"
+  }, {
+    "name" : "问题列表",
+    "children" : [ {
+      "name" : "正常case(默认不传参)",
+      "children" : [ {
+        "name" : "test_success_noparams",
+        "uid" : "2aba39714a536677",
+        "parentUid" : "373336919d680ab797eeaa1f857be877",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974158,
+          "stop" : 1578392974302,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "373336919d680ab797eeaa1f857be877"
+    }, {
+      "name" : "正常case(展示isHot热门问题)",
+      "children" : [ {
+        "name" : "test_success_isHot",
+        "uid" : "f80065f9ddcff9c1",
+        "parentUid" : "b1bba927f3a09796ed460fe04b67a748",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974310,
+          "stop" : 1578392974474,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1bba927f3a09796ed460fe04b67a748"
+    }, {
+      "name" : "正常case(展示isKeyword关键问题)",
+      "children" : [ {
+        "name" : "test_success_isKeyword",
+        "uid" : "377e79294c12678",
+        "parentUid" : "86c00b9c240e67cc748b44c7291b18a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974479,
+          "stop" : 1578392974631,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86c00b9c240e67cc748b44c7291b18a1"
+    }, {
+      "name" : "正常case(展示isExample示例问题)",
+      "children" : [ {
+        "name" : "test_success_isExample",
+        "uid" : "302e845e58b13ad3",
+        "parentUid" : "d7dfc0fa8e58df376cbdf0622d406d4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974646,
+          "stop" : 1578392974824,
+          "duration" : 178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7dfc0fa8e58df376cbdf0622d406d4e"
+    }, {
+      "name" : "正常case(展示category为板块)",
+      "children" : [ {
+        "name" : "test_success_category_plate",
+        "uid" : "d626d26798949c39",
+        "parentUid" : "939f99034bfca7cd7540d1573db48a53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974838,
+          "stop" : 1578392975018,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "939f99034bfca7cd7540d1573db48a53"
+    }, {
+      "name" : "正常case(展示category为大盘)",
+      "children" : [ {
+        "name" : "test_success_category_index",
+        "uid" : "d9e0f648a3f6dccf",
+        "parentUid" : "72b8a7066fcb9537d514a4f0511e5fc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392975028,
+          "stop" : 1578392975185,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72b8a7066fcb9537d514a4f0511e5fc2"
+    }, {
+      "name" : "正常case(展示第二页数据)",
+      "children" : [ {
+        "name" : "test_success_category_stock",
+        "uid" : "85fdf9a716256e90",
+        "parentUid" : "383b2b8a78bbb16c401cf5b5b6f8d1e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392975190,
+          "stop" : 1578392975353,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "383b2b8a78bbb16c401cf5b5b6f8d1e5"
+    } ],
+    "uid" : "350d586f97fe1950322d3c21713d64c5"
+  } ]
+}

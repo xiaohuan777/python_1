@@ -1,0 +1,78 @@
+{
+  "uid" : "63c3c7c0f987de10",
+  "name" : "test_success",
+  "fullName" : "testcase.test_HotQuestions.TestClass#test_success",
+  "historyId" : "670e24502f0aa4252a7fb11f4c95089f",
+  "time" : {
+    "start" : 1578392972914,
+    "stop" : 1578392973379,
+    "duration" : 465
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e9364350973236f",
+      "name" : "stdout",
+      "source" : "4e9364350973236f.txt",
+      "type" : "text/plain",
+      "size" : 4331
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "热门问题"
+  }, {
+    "name" : "story",
+    "value" : "正常case"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_HotQuestions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "TSJ-002097"
+  }, {
+    "name" : "thread",
+    "value" : "22096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_HotQuestions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63c3c7c0f987de10.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,155 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_Chat",
+      "children" : [ {
+        "name" : "test_success",
+        "uid" : "74d9db19539b16e8",
+        "parentUid" : "edabc0695f9a79a7e90c75bc3cfb39ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578392972116,
+          "stop" : 1578392972848,
+          "duration" : 732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "edabc0695f9a79a7e90c75bc3cfb39ea"
+    }, {
+      "name" : "test_HotQuestions",
+      "children" : [ {
+        "name" : "test_success",
+        "uid" : "63c3c7c0f987de10",
+        "parentUid" : "b976a1ca881f737982740cff625269c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392972914,
+          "stop" : 1578392973379,
+          "duration" : 465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b976a1ca881f737982740cff625269c9"
+    }, {
+      "name" : "test_QueryAiInfotByAppCode",
+      "children" : [ {
+        "name" : "test_success",
+        "uid" : "2822e9bd758850ec",
+        "parentUid" : "981ba4ff9370a88f5ae95b825ddd5aa4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392973385,
+          "stop" : 1578392974151,
+          "duration" : 766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "981ba4ff9370a88f5ae95b825ddd5aa4"
+    }, {
+      "name" : "test_QuestionsPages",
+      "children" : [ {
+        "name" : "test_success_noparams",
+        "uid" : "2aba39714a536677",
+        "parentUid" : "47bc4582c233a06dfcf14bb51044ba8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974158,
+          "stop" : 1578392974302,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_isHot",
+        "uid" : "f80065f9ddcff9c1",
+        "parentUid" : "47bc4582c233a06dfcf14bb51044ba8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974310,
+          "stop" : 1578392974474,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_isKeyword",
+        "uid" : "377e79294c12678",
+        "parentUid" : "47bc4582c233a06dfcf14bb51044ba8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974479,
+          "stop" : 1578392974631,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_isExample",
+        "uid" : "302e845e58b13ad3",
+        "parentUid" : "47bc4582c233a06dfcf14bb51044ba8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974646,
+          "stop" : 1578392974824,
+          "duration" : 178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_category_plate",
+        "uid" : "d626d26798949c39",
+        "parentUid" : "47bc4582c233a06dfcf14bb51044ba8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392974838,
+          "stop" : 1578392975018,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_category_index",
+        "uid" : "d9e0f648a3f6dccf",
+        "parentUid" : "47bc4582c233a06dfcf14bb51044ba8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392975028,
+          "stop" : 1578392975185,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success_category_stock",
+        "uid" : "85fdf9a716256e90",
+        "parentUid" : "47bc4582c233a06dfcf14bb51044ba8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578392975190,
+          "stop" : 1578392975353,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47bc4582c233a06dfcf14bb51044ba8d"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}
