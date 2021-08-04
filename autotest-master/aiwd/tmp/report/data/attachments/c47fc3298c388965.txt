@@ -1,1 +1,0 @@
-{'code': 1, 'errorMessage': 'OK', 'data': {'totalNumber': 36, 'list': [{'id': 167, 'name': 'A股市场涨跌分布', 'isHot': 1, 'isKeyword': 0, 'isExample': 1, 'createUser': 'string', 'updateUser': 'chenguan', 'createTime': 1577971225355, 'updateTime': 1578314420386, 'category': 'index', 'applicationCodes': ['com.rjhy.uranus']}]}}

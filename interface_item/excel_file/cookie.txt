@@ -1,5 +1,0 @@
-# Netscape HTTP Cookie File
-# http://curl.haxx.se/rfc/cookie_spec.html
-# This is a generated file!  Do not edit.
-
-mp.eastday.com	FALSE	/	FALSE		JSESSIONID	D0D69E4B17C45654176A872B67FA8058

@@ -1,4 +1,0 @@
-url
-"m.baidu.com"
-"m.imooc.com"
-"m.qq.com"

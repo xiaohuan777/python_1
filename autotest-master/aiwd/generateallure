@@ -1,3 +1,0 @@
-pytest --alluredir=/test/autotest/aiwd/tmp/my_allure_results
-allure generate /test/autotest/aiwd/tmp/my_allure_results -o /test/autotest/aiwd/tmp/report --clean
-allure open -h 127.0.0.1 -p 8083 /test/autotest/aiwd/tmp/report
