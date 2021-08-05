@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ef72778-014a-4979-9592-82cb967dbcaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="-540">
               <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.vscode/settings.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,6 +74,7 @@
         <option value="$PROJECT_DIR$/test_items/pytest_item/abc.py" />
         <option value="$PROJECT_DIR$/123" />
         <option value="$PROJECT_DIR$/.vscode/settings.json" />
+        <option value="$PROJECT_DIR$/abc.py" />
       </list>
     </option>
   </component>
@@ -92,7 +93,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,12 +102,20 @@
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest-master" type="462c0819:PsiDirectoryNode" />
+              <item name="aiwd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +140,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_wrap">
+  <component name="RunManager" selected="Python.abc">
+    <configuration name="abc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,6 +269,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.abc" />
         <item itemvalue="Python.test_wrap" />
         <item itemvalue="Python.test_demo1" />
         <item itemvalue="Python.demo2 (1)" />
@@ -328,7 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628066413682</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="测试">
+      <created>1628066895539</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628066895539</updated>
+    </task>
+    <task id="LOCAL-00012" summary="测试">
+      <created>1628066907312</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628066907312</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -342,19 +386,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.16277424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.26893136" />
       <window_info id="Structure" order="1" sideWeight="0.50230414" side_tool="true" weight="0.16823785" />
       <window_info id="Favorites" order="2" sideWeight="0.50230414" side_tool="true" weight="0.16823785" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963742" weight="0.2745592" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963742" weight="0.27417028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39936608" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.1950689" weight="0.32718894" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3015873" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3015873" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.28360415" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003626" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32872504" />
@@ -400,7 +443,8 @@
     <MESSAGE value="uiautomator2 调试登录页" />
     <MESSAGE value="新增 pytest 测试案例" />
     <MESSAGE value="删除文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除文件" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python_files/interface/main/run_test.py" />
@@ -617,34 +661,20 @@
     <entry file="file://$PROJECT_DIR$/test_items/pytest_item/abc.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.pytest_cache/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/123">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.pytest_cache/README.md" />
+    <entry file="file://$PROJECT_DIR$/123" />
+    <entry file="file://$PROJECT_DIR$/abc.py" />
     <entry file="file://$PROJECT_DIR$/.vscode/settings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
         </state>
       </provider>
     </entry>
